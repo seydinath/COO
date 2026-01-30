@@ -2,7 +2,7 @@
 
 Un système complet de gestion de bibliothèque implémenté en JavaScript utilisant les principes de la Conception Orientée Objet (POO) et plusieurs patrons de conception.
 
-## 📋 Caractéristiques principales
+## Caractéristiques principales
 
 ### Patrons de conception utilisés:
 
@@ -25,7 +25,7 @@ Un système complet de gestion de bibliothèque implémenté en JavaScript utili
 - **Encapsulation**: Champs privés et getter/setter
 - **Polymorphisme**: Implémentation de l'interface `NotificationObserver`
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 js/
@@ -49,7 +49,7 @@ js/
 └── README.md                         # Cette documentation
 ```
 
-## 🚀 Installation et exécution
+## Installation et exécution
 
 ### Prérequis
 - Node.js installé sur votre système
@@ -67,7 +67,7 @@ Ou directement:
 node demo.js
 ```
 
-## 🎯 Fonctionnalités
+## Fonctionnalités
 
 ### Gestion des utilisateurs
 - Créer des utilisateurs (Étudiants et Enseignants)
@@ -96,7 +96,7 @@ node demo.js
 - Alertes de retard pour les utilisateurs
 - Système observable pour les changements d'état
 
-## 💡 Exemple d'utilisation
+## Exemple d'utilisation
 
 ```javascript
 const LibrarySystem = require('./src/system/LibrarySystem');
@@ -137,7 +137,7 @@ library.afficherLivresEmpruntés('E001');
 library.retournerLivre('E001', 'ISBN-001');
 ```
 
-## 📊 Classes principales
+## Classes principales
 
 ### Utilisateur (abstraite)
 - Classe de base pour tous les utilisateurs
@@ -164,7 +164,7 @@ library.retournerLivre('E001', 'ISBN-001');
 - Gère les transactions d'emprunt
 - Coordonne les notifications
 
-## 🔐 Principes appliqués
+## Principes appliqués
 
 1. **DRY (Don't Repeat Yourself)**
    - Code réutilisable et bien organisé
@@ -182,7 +182,7 @@ library.retournerLivre('E001', 'ISBN-001');
    - Singleton pour l'unicité du système
    - Observer pour les notifications
 
-## 📝 Améliorations possibles
+## Améliorations possibles
 
 - Ajouter une persistance de données (base de données ou fichiers)
 - Implémentation d'une interface utilisateur web
