@@ -1,0 +1,20 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Système de gestion de bibliothèque basé sur les principes de POO avec des patrons de conception",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OOP",
+    "Design Patterns",
+    "Factory",
+    "Singleton",
+    "Observer",
+    "Library Management"
+  ],
+  "author": "Système de gestion de bibliothèque",
+  "license": "MIT"
+}
